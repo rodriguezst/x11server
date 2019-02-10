@@ -1,4 +1,4 @@
-FROM balenalib/ubuntu
+FROM balenalib/armv7hf-ubuntu:bionic
 MAINTAINER Jan Suchotzki <jan@suchotzki.de>
 
 RUN [ "cross-build-start" ]
